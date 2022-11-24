@@ -4,5 +4,4 @@ import App from './App.vue'
 
 const app=createApp(App)
 console.log(app)
-console.log(1111)
 createApp(App).mount('#app')
