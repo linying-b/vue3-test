@@ -45,10 +45,11 @@
     "not dead",
     "not ie 11"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
+    "husky": {
+      "hooks": {
+        "pre-commit": "npm run test",
+        "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+      }
     }
-  }
 
 }
